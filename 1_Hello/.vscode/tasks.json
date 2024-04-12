@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "g++.exe build active file",//这里跟launch.json文件中的“preLaunchTask”参数保持一致
+			"command": "C:/MinGW/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:/MinGW/bin"//此处填写你的编译器文件夹位置
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:/MinGW/bin/g++.exe"
+		}
+	]
+}
