@@ -1,3 +1,6 @@
+/**
+ * ³ÌÐò½á¹¹
+*/
 #include <stdio.h>
 #include <math.h>
 double root(double x,double y)

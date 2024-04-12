@@ -1,3 +1,6 @@
+/**
+ * 认识C
+*/
 #include <stdio.h>
 // 函数返回两个数的最大公约数
 int getGCM(int a, int b)
