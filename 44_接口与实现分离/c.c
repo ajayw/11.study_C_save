@@ -1,0 +1,4 @@
+double fsqrt(double x)
+{
+    
+}

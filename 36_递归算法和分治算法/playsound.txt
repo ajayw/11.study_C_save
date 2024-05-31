@@ -1,0 +1,2 @@
+Visual C++ WINMM.LIB
+GCC    libWinMM.a

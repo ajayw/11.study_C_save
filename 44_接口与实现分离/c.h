@@ -1,0 +1,1 @@
+double fsqrt(double x);

@@ -1,0 +1,4 @@
+double fcos(double x)
+{
+    
+}
